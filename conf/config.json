@@ -1,0 +1,13 @@
+{
+  "cassandra": {
+    "cluster": [
+      "localhost:9042"
+    ],
+    "dc": "datacenter1",
+    "keyspace": "authcassandra",
+    "backoff": 5,
+    "timeout": 10000,
+    "keepAlive": 10,
+    "numConns": 2
+  }
+}
